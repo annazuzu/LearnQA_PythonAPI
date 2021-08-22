@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4dccf609-bb27-4fac-95ca-28f370afed30" name="Changes" comment="Ex6: Длинный редирект">
-      <change afterPath="$PROJECT_DIR$/ex7_query_and_methods.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test1.py" afterDir="false" />
+    <list default="true" id="4dccf609-bb27-4fac-95ca-28f370afed30" name="Changes" comment="Ex7: Запросы и методы">
+      <change afterPath="$PROJECT_DIR$/ex8_tokens.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/preps_and_tests/ex8_tokens_prepare.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/preps_and_tests/ex8_tokens_prepare1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex5_json_parsing.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex5_json_parsing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex6_long_redirect.py" beforeDir="false" afterPath="$PROJECT_DIR$/preps_and_tests/ex6_long_redirect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex7_query_and_methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex7_query_and_methods.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,12 +66,13 @@
       <recent name="C:\PythonAPI\LearnQA_PythonAPI" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\PythonAPI\LearnQA_PythonAPI\preps_and_tests" />
       <recent name="C:\PythonAPI\LearnQA_PythonAPI" />
       <recent name="C:\PythonAPI\LearnQA_PythonAPI\helpers" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ex7_query_and_methods">
-    <configuration name="ex6_long_redirect_final" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.ex5_json_parsing">
+    <configuration name="ex5_json_parsing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LearnQA_PythonAPI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,7 +84,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex6_long_redirect_final.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex5_json_parsing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -90,7 +93,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex7_query_and_methods" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ex8_tokens" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LearnQA_PythonAPI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -102,7 +105,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex7_query_and_methods.py" />
+      <option name="SCRIPT_NAME" value="C:\PythonAPI\LearnQA_PythonAPI\ex8_tokens.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -111,7 +114,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ex8_tokens_prepare" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LearnQA_PythonAPI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,7 +126,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="C:\PythonAPI\LearnQA_PythonAPI\preps_and_tests\ex8_tokens_prepare.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,7 +135,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ex8_tokens_prepare1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LearnQA_PythonAPI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -144,7 +147,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="C:\PythonAPI\LearnQA_PythonAPI\preps_and_tests\ex8_tokens_prepare1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,7 +156,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="json_parsing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LearnQA_PythonAPI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -165,7 +168,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/json_parsing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ex7_query_and_methods" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.test1" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.ex6_long_redirect_final" />
+        <item itemvalue="Python.ex5_json_parsing" />
+        <item itemvalue="Python.ex8_tokens_final1" />
+        <item itemvalue="Python.ex8_tokens_prepare1" />
+        <item itemvalue="Python.ex8_tokens_prepare" />
+        <item itemvalue="Python.json_parsing" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629461941965</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Ex7: Запросы и методы">
+      <created>1629583422114</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1629583422114</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,6 +281,7 @@
     <MESSAGE value="Ex3: Создание репозитория" />
     <MESSAGE value="Ex5: Парсинг JSON" />
     <MESSAGE value="Ex6: Длинный редирект" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ex6: Длинный редирект" />
+    <MESSAGE value="Ex7: Запросы и методы" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ex7: Запросы и методы" />
   </component>
 </project>

@@ -6,4 +6,6 @@ obj = json.loads(json_text)
 
 key = "message"
 
-print(obj["messages"][1][key])
+massive = obj["messages"]
+
+print(massive[1][key])
