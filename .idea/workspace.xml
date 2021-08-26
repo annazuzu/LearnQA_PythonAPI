@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dccf609-bb27-4fac-95ca-28f370afed30" name="Changes" comment="Ex10: Тест на короткую фразу">
-      <change afterPath="$PROJECT_DIR$/preps_and_tests/some_cookie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_ex11_some_cookie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/preps_and_tests/some_headers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_ex12_some_header.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +69,28 @@
       <recent name="C:\PythonAPI\LearnQA_PythonAPI" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.some_cookie">
+  <component name="RunManager" selected="Python tests.Python tests for test_ex12_some_header.TestEx12SomeHeader.test_some_header">
+    <configuration name="showAllHeaders" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LearnQA_PythonAPI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/helpers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/helpers/showAllHeaders.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="some_cookie" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LearnQA_PythonAPI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -83,6 +104,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preps_and_tests/some_cookie.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="some_headers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LearnQA_PythonAPI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/preps_and_tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preps_and_tests/some_headers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,7 +147,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_examples.TestExample.test_check_math" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_ex12_some_header.TestEx12SomeHeader.test_some_header" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="LearnQA_PythonAPI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -115,45 +157,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_examples.TestExample.test_check_math&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_first_api.TestFirstApi.test_hello_call" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="LearnQA_PythonAPI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_first_api.TestFirstApi.test_hello_call&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_first_api_failed.TestFirstApi.test_hello_call" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="LearnQA_PythonAPI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_first_api_failed.TestFirstApi.test_hello_call&quot;" />
+      <option name="_new_target" value="&quot;test_ex12_some_header.TestEx12SomeHeader.test_some_header&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_ex12_some_header.TestEx12SomeHeader.test_some_header" />
+        <item itemvalue="Python.some_headers" />
+        <item itemvalue="Python.showAllHeaders" />
         <item itemvalue="Python.some_cookie" />
         <item itemvalue="Python tests.Python tests for test_ex10_catch_phrase.TestEx10CatchPhrase.test_catch_phrase" />
-        <item itemvalue="Python tests.Python tests for test_first_api_failed.TestFirstApi.test_hello_call" />
-        <item itemvalue="Python tests.Python tests for test_first_api.TestFirstApi.test_hello_call" />
-        <item itemvalue="Python tests.Python tests for test_examples.TestExample.test_check_math" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629995717991</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Ex10: Тест на короткую фразу">
+      <created>1629997235303</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1629997235303</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
