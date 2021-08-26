@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4dccf609-bb27-4fac-95ca-28f370afed30" name="Changes" comment="Ex9: Подбор пароля">
-      <change afterPath="$PROJECT_DIR$/preps_and_tests/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/preps_and_tests/test1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_ex10_catch_phrase.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_examples.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_first_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_first_api_failed.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_first_api_params.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_user_auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_user_auth_and_negative.py" afterDir="false" />
+    <list default="true" id="4dccf609-bb27-4fac-95ca-28f370afed30" name="Changes" comment="Ex10: Тест на короткую фразу">
+      <change afterPath="$PROJECT_DIR$/preps_and_tests/some_cookie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_ex11_some_cookie.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,8 +69,8 @@
       <recent name="C:\PythonAPI\LearnQA_PythonAPI" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_ex10_catch_phrase.TestEx10CatchPhrase.test_catch_phrase">
-    <configuration name="ex9_secret_password" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.some_cookie">
+    <configuration name="some_cookie" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LearnQA_PythonAPI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -86,11 +78,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/preps_and_tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex9_secret_password.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preps_and_tests/some_cookie.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.some_cookie" />
         <item itemvalue="Python tests.Python tests for test_ex10_catch_phrase.TestEx10CatchPhrase.test_catch_phrase" />
         <item itemvalue="Python tests.Python tests for test_first_api_failed.TestFirstApi.test_hello_call" />
         <item itemvalue="Python tests.Python tests for test_first_api.TestFirstApi.test_hello_call" />
         <item itemvalue="Python tests.Python tests for test_examples.TestExample.test_check_math" />
-        <item itemvalue="Python.ex9_secret_password" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629623870231</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Ex10: Тест на короткую фразу">
+      <created>1629995717990</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1629995717991</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,6 +270,7 @@
     <MESSAGE value="Ex7: Запросы и методы" />
     <MESSAGE value="Ex8: Токены" />
     <MESSAGE value="Ex9: Подбор пароля" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ex9: Подбор пароля" />
+    <MESSAGE value="Ex10: Тест на короткую фразу" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ex10: Тест на короткую фразу" />
   </component>
 </project>
