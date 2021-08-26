@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4dccf609-bb27-4fac-95ca-28f370afed30" name="Changes" comment="Ex10: Тест на короткую фразу">
-      <change afterPath="$PROJECT_DIR$/preps_and_tests/some_headers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_ex12_some_header.py" afterDir="false" />
+    <list default="true" id="4dccf609-bb27-4fac-95ca-28f370afed30" name="Changes" comment="Ex12: Тест запроса на метод header">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/assertions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/base_case.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex5_json_parsing.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz_2/ex5_json_parsing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex6_long_redirect_final.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz_2/ex6_long_redirect_final.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex7_query_and_methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz_2/ex7_query_and_methods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex8_tokens.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz_2/ex8_tokens.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex9_secret_password.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz_2/ex9_secret_password.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/hello.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json_parsing.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/json_parsing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_ex10_catch_phrase.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_ex10_catch_phrase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_ex11_some_cookie.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_ex11_some_cookie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_ex12_some_header.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_ex12_some_header.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_examples.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_first_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_first_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_first_api_failed.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_first_api_failed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_first_api_params.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_first_api_params.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_user_auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_user_auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_user_auth_and_negative.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_user_auth_and_negative.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,12 +84,14 @@
       <recent name="C:\PythonAPI\LearnQA_PythonAPI" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\PythonAPI\LearnQA_PythonAPI\preps_and_tests" />
+      <recent name="C:\PythonAPI\LearnQA_PythonAPI\dz_2" />
+      <recent name="C:\PythonAPI\LearnQA_PythonAPI\tests" />
       <recent name="C:\PythonAPI\LearnQA_PythonAPI\helpers" />
+      <recent name="C:\PythonAPI\LearnQA_PythonAPI\preps_and_tests" />
       <recent name="C:\PythonAPI\LearnQA_PythonAPI" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_ex12_some_header.TestEx12SomeHeader.test_some_header">
+  <component name="RunManager">
     <configuration name="showAllHeaders" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LearnQA_PythonAPI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,7 +155,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_ex10_catch_phrase.TestEx10CatchPhrase.test_catch_phrase" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for tests.test_ex10_catch_phrase.TestEx10CatchPhrase.test_catch_phrase" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="LearnQA_PythonAPI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -143,11 +165,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_ex10_catch_phrase.TestEx10CatchPhrase.test_catch_phrase&quot;" />
+      <option name="_new_target" value="&quot;tests.test_ex10_catch_phrase.TestEx10CatchPhrase.test_catch_phrase&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_ex12_some_header.TestEx12SomeHeader.test_some_header" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for tests.test_ex12_some_header.TestEx12SomeHeader.test_some_header" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="LearnQA_PythonAPI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -157,17 +179,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_ex12_some_header.TestEx12SomeHeader.test_some_header&quot;" />
+      <option name="_new_target" value="&quot;tests.test_ex12_some_header.TestEx12SomeHeader.test_some_header&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_ex12_some_header.TestEx12SomeHeader.test_some_header" />
+        <item itemvalue="Python tests.Python tests for tests.test_ex12_some_header.TestEx12SomeHeader.test_some_header" />
         <item itemvalue="Python.some_headers" />
         <item itemvalue="Python.showAllHeaders" />
         <item itemvalue="Python.some_cookie" />
-        <item itemvalue="Python tests.Python tests for test_ex10_catch_phrase.TestEx10CatchPhrase.test_catch_phrase" />
+        <item itemvalue="Python tests.Python tests for tests.test_ex10_catch_phrase.TestEx10CatchPhrase.test_catch_phrase" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629997235303</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Ex12: Тест запроса на метод header">
+      <created>1629998697929</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1629998697929</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -292,6 +321,7 @@
     <MESSAGE value="Ex8: Токены" />
     <MESSAGE value="Ex9: Подбор пароля" />
     <MESSAGE value="Ex10: Тест на короткую фразу" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ex10: Тест на короткую фразу" />
+    <MESSAGE value="Ex12: Тест запроса на метод header" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ex12: Тест запроса на метод header" />
   </component>
 </project>
