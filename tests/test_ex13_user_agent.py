@@ -28,8 +28,8 @@ class TestEx13UserAgent:
         (user_agents[4], expected_values[4]['platform'], expected_values[4]['browser'], expected_values[4]['device'])
     ]
 
-    def assert_this(self, actual_value, expected_value, value):
-        assert actual_value == expected_value, f"Actual {value} {actual_value} is not equal to expected {value} {expected_value}"
+    def assertation_message(self, actual_value, expected_value, value):
+        return f"Actual {value} {actual_value} is not equal to expected {value} {expected_value}"
 
     @pytest.mark.parametrize('user_agent, expected_platform, expected_browser, expected_device', testdata,
                              ids=[1, 2, 3, 4, 5])
@@ -55,10 +55,15 @@ class TestEx13UserAgent:
         print("actual_browser: " + actual_browser)
         print("actual_device: " + actual_device)
 
-        self.assert_this(actual_platform, expected_platform, "platform")
-        self.assert_this(actual_browser, expected_browser, "browser")
-        self.assert_this(actual_device, expected_device, "device")
+        # Делаем так, чтобы AssertionError не выбивал из теста при первом несоответствии и тест фиксировал все:
+        errors = []
 
+        if not actual_platform == expected_platform:
+            errors.append(self.assertation_message(actual_platform, expected_platform, "platform"))
+        if not actual_browser == expected_browser:
+            errors.append(self.assertation_message(actual_browser, expected_browser, "browser"))
+        if not actual_device == expected_device:
+            errors.append(self.assertation_message(actual_device, expected_device, "device"))
 
-
-
+        # нет сообщений об ошибках. Если есть, то прокинуть AssertionError и вывести все сообщения:
+        assert not errors, "errors occured:\n{}".format("\n".join(errors))

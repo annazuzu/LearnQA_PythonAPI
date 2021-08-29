@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4dccf609-bb27-4fac-95ca-28f370afed30" name="Changes" comment="Ex14: Формирование фреймворка">
-      <change afterPath="$PROJECT_DIR$/tests/test_ex13_user_agent.py" afterDir="false" />
+    <list default="true" id="4dccf609-bb27-4fac-95ca-28f370afed30" name="Changes" comment="Ex13: User Agent">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preps_and_tests/some_headers.py" beforeDir="false" afterPath="$PROJECT_DIR$/preps_and_tests/some_headers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preps_and_tests/test1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_ex13_user_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_ex13_user_agent.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630009981120</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Ex13: User Agent">
+      <created>1630213936317</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1630213936317</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -319,6 +324,7 @@
     <MESSAGE value="Ex10: Тест на короткую фразу" />
     <MESSAGE value="Ex12: Тест запроса на метод header" />
     <MESSAGE value="Ex14: Формирование фреймворка" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ex14: Формирование фреймворка" />
+    <MESSAGE value="Ex13: User Agent" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ex13: User Agent" />
   </component>
 </project>
